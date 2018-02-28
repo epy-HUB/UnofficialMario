@@ -7,3 +7,70 @@ body{
     padding-top: 70px;
     padding-bottom: 100px;
 }
+
+#page-content{
+	margin-bottom: 100px;
+}
+
+.btn-danger{
+	margin-bottom: 15px;
+}
+
+footer p{
+	font-size: 0.7em;
+}
+
+.modal-footer p{
+	color: #FFFFFF;
+}
+
+textarea {
+    resize: none;
+}
+
+.vcenter {
+    margin-top: 20%;
+}
+.char-wrapper{
+	padding-bottom: 50px;
+}
+
+
+#mario{
+	background-color: red;
+	color: #FFFFFF;
+}
+#luigi{
+	background-color: green;
+	color: #FFFFFF;
+}
+#peach{
+	background-color: pink;
+	color: #FFFFFF;
+}
+#toad{
+	background-color: blue;
+	color: #FFFFFF;
+}
+#daisy{
+	background-color: orange;
+	color: #FFFFFF;
+}
+#bowser{
+	background-color: gold;
+	color: #FFFFFF;
+}
+#yoshi{
+	background-color: green;
+	color: #FFFFFF;
+}
+#wario{
+	background-color: yellow;
+	color: #FFFFFF;
+}
+#waluigi{
+	background-color: violet;
+	color: #FFFFFF;
+}
+
+
