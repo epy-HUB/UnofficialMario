@@ -1,9 +1,15 @@
 /*characters*/
+body{
+	
+	padding-top: 20%;
+	padding-bottom: 20%;
+	background-color: grey;
+}
 .vcenter {
     margin-top: 20%;
 }
 .char-wrapper{
-	padding-bottom: 50px;
+	padding-bottom: 20%;
 }
 
 /*character*/
@@ -43,3 +49,34 @@
 	background-color: violet;
 	color: #FFFFFF;
 }
+
+
+
+@media only screen and (max-device-width: 459px) {
+	body{
+		padding-bottom: 50%;
+	}
+	.vcenter{
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (min-device-width: 767px)  {
+	body{
+		padding-top: 10%;
+		padding-bottom: 10%
+	}
+	.vcenter{
+		margin-top: 15px;
+	}
+}
+
+@media only screen and (min-device-width: 992px)  {
+
+	.vcenter{
+		margin-top: 20%;
+		
+	}
+	
+}
+
