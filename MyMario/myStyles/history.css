@@ -1,12 +1,22 @@
 body{
     padding-top: 20%;
+    background-color: #FFFFFF;
 }
 
+footer p{
+	font-size: 0.7em;
+}
+
+.navbar-text>a{
+    color: inherit;
+    text-decoration: none;
+    
+}
 
 
 .timeline-wrapper{
     padding-bottom: 10%;
-    background-color: grey;
+    
 }
 
 .timeline {
