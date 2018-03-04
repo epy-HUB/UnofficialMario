@@ -12,12 +12,12 @@ footer p{
     text-decoration: none;
     
 }
-
-
-.timeline-wrapper{
-    padding-bottom: 10%;
-    
+.navbar{
+	margin-bottom: 0;
 }
+
+
+
 
 .timeline {
     list-style: none;
@@ -205,17 +205,12 @@ footer p{
 
 
 
-@media only screen and (max-device-width: 459px) {
-	body{
-		padding-bottom: 50%;
-	}
-	
-}
+
 
 @media only screen and (min-device-width: 767px)  {
 	body{
 		padding-top: 10%;
-		padding-bottom: 10%
+		
 	}
 	
 }

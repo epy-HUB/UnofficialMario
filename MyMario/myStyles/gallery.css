@@ -1,230 +1,72 @@
-/* Photo Banner */
-/*.container {
+
+
+  html,body {
     width: 100%;
+    height: 100%;
+    margin-bottom: 30%;
+    padding-top: 5%;
+  }
+  .navbar{
+      margin-bottom: 0;
+  }
+
+footer p{
+	font-size: 0.7em;
+}
+
+.navbar-text>a{
+    color: inherit;
+    text-decoration: none;
+}
+  
+  #myCarousel {
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
     overflow: hidden;
-    margin: 10px auto;
-    background: white;
-}
-*/
-.photobanner, .photobanner2 {
-    height: 233px;
-    width: 3550px;
-    margin-bottom: 5px;
-    font-size: 0;
-}
+    position: relative;
+  }
+  #myCarousel .item {
+    width: 100%;
+    height: 100vh;
+       
+  }
+  #myCarousel .item-inside {
+    width: 80%;
+    height: 80%;
+    margin-top: 10%;
+    margin-left: 10%;
+    background-position: center;
+    background-size: cover;
+  }
+  #myCarousel .carousel-indicators {
+    position: absolute;
+    padding-bottom: 3%;
+    top: 0;
+  }
 
-.photobanner img, .photobanner2 img {
-    margin-bottom: 10px;
-    margin-right: 5px;
-    /*height: 233px;
-    width: 350px;*/
-}
+  #myCarousel .carousel-indicators li {
+    width: 10%;
+  }
 
-.photobanner img  {
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
-}
- 
-.photobanner img:hover {
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-    cursor: pointer;
- 
-    -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-    -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-    box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
-}
-
-
-/*keyframe animations*/
-.first {
-    -webkit-animation: bannermove 30s linear infinite;
-       -moz-animation: bannermove 30s linear infinite;
-        -ms-animation: bannermove 30s linear infinite;
-         -o-animation: bannermove 30s linear infinite;
-            animation: bannermove 30s linear infinite;
-}
- 
-@keyframes "bannermove" {
- 0% {margin-left: 0px;}
- 100% {margin-left: -2130px;}
-}
- 
-@-moz-keyframes bannermove {
- 0% {margin-left: 0px;}
- 100% {margin-left: -2130px;}
-}
- 
-@-webkit-keyframes "bannermove" {
- 0% {margin-left: 0px;}
- 100% {margin-left: -2130px;}
-}
- 
-@-ms-keyframes "bannermove" {
- 0% {margin-left: 0px;}
- 100% {margin-left: -2130px;}
-}
- 
-@-o-keyframes "bannermove" {
- 0% {margin-left: 0px;}
- 100% {margin-left: -2130px;}
-}
-
-.second {
-    -webkit-animation: bannermoves 30s linear infinite;
-       -moz-animation: bannermoves 30s linear infinite;
-        -ms-animation: bannermoves 30s linear infinite;
-         -o-animation: bannermoves 30s linear infinite;
-            animation: bannermoves 30s linear infinite;
-}
- 
-@keyframes "bannermoves" {
- 0% {margin-left: -2130px;}
- 100% {margin-left: 0px;}
-}
- 
-@-moz-keyframes bannermoves {
- 0% {margin-left: -2130px;}
- 100% {margin-left: 0px;}
-}
- 
-@-webkit-keyframes "bannermoves" {
- 0% {margin-left: -2130px;}
- 100% {margin-left: 0px;}
-}
- 
-@-ms-keyframes "bannermoves" {
- 0% {margin-left: -2130px;}
- 100% {margin-left: 0px;}
-}
- 
-@-o-keyframes "bannermoves" {
- 0% {margin-left: -2130px;}
- 100% {margin-left: 0px;}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-
-
-body{
-    padding-bottom: 20%;
-}
-
-
-
-
-
-
-#mario{
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: 1s ease;
-
-}
-
-#mario:hover{
-    -webkit-filter: grayscale(0);
-}
-
-#luigi{
+  #myCarousel .carousel-indicators li img{
    
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: 1s ease;
-}
-#luigi:hover{
-    -webkit-filter: grayscale(0);
+    width: 100%;
+    border-radius: 0px;
+    margin-top: 10px;
+    transition: all .5s ease-in;
+  }
+
+  #myCarousel .carousel-indicators li.active img{
+  
+    margin-top: -1%;
    
-}
+    box-shadow: 0 10px 6px -6px #777;
+  }
 
-#yoshi{
-   
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: 1s ease;
-}
-#yoshi:hover{
-    -webkit-filter: grayscale(0);
-    
-}
-
-#peach{
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: 1s ease;
-
-}
-
-#peach:hover{
-    -webkit-filter: grayscale(0);
-}
-
-#daisy{
-   
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: 1s ease;
-}
-#daisy:hover{
-    -webkit-filter: grayscale(0);
-   
-}
-
-#toad{
-   
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: 1s ease;
-}
-#toad:hover{
-    -webkit-filter: grayscale(0);
-    
-}
+	
 
 
 
-#bowser{
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: 1s ease;
 
-}
-
-#bowser:hover{
-    -webkit-filter: grayscale(0);
-}
-
-#wario{
-   
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: 1s ease;
-}
-#wario:hover{
-    -webkit-filter: grayscale(0);
-   
-}
-
-#waluigi{
-   
-    -webkit-filter: grayscale(100%);
-    -webkit-transition: 1s ease;
-}
-#waluigi:hover{
-    -webkit-filter: grayscale(0);
-    
-}
-
-
-
-*/
