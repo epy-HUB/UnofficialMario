@@ -4,223 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>HOME</title>
+    <title>Welcome</title>
     <link rel="stylesheet" type="text/css" href="libs/css/style.css">
 	<link rel="stylesheet" type="text/css" href="libs/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-  <link rel="stylesheet" href="myStyles/style.css">
+  <link rel="stylesheet" href="myStyles/landing.css">
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html">MARIO</a>
-                </div>
-                <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">Home</a></li>       
-                    <li><a href="gallery.html">Gallery</a></li>   
-                    <li><a href="character.html">Characters</a></li>
-                    <li><a href="history.html">History</a></li>           
-                    <li><a href="#contact" data-toggle="modal">Contact </a></li>
-                </ul>
-            </div><!--/.nav-collapse -->
-        </div>
-    </nav>
 
-    <!-- jumbotron -->
+<!-- <h1>Hello I'm a Mario!</h1> -->
+<div class="bg">
     <div class="container">
-        <div class="jumbotron text-center">
-            <div class="row">
-                <div class="col-md-8 col-sm-6">
-                    <img class="img-responsive" src="images/char-mario-star.png">
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <h1><q>It's-a me, Mario!</q></h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium debitis </p>
-                    <a href="#" class="btn btn-primary">Hello</a>
-                    <a href="#" class="btn btn-success">World</a>
-                </div>
-            </div>
-            
+        <div class="row" id="landing">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 text-center">
+            <h1>Hello world</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+            <a href="home.html" class="btn btn-primary"> Enter </a> 
         </div>
-        <!-- page content  -->
-        <div class="row" id="page-content">
-            <div class="col-sm-4 col-xs-12">
-                <a href="#" class="thumbnail">
-                    <img src="images/featured-mariokart8.jpg" alt="">
-                </a>
-                <h3>Mario Kart</h3>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, aliquam? Consequuntur sint nesciunt, veritatis, dolor eum possimus totam impedit nulla ad aliquid corporis praesentium nisi ullam earum pariatur qui ea.</p>
-                <a href="#theme1" data-toggle="modal" class="btn btn-danger">View</a>
-            </div>
-            <div class="col-sm-4 col-xs-12">
-                    <a href="#" class="thumbnail">
-                        <img src="images/featured-mario-odyssey.jpg" alt="">
-                     </a>
-                    <h3>Mario Odyssey</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, aliquam? Consequuntur sint nesciunt, veritatis, dolor eum possimus totam impedit nulla ad aliquid corporis praesentium nisi ullam earum pariatur qui ea.</p>
-                    <a href="#theme2" data-toggle="modal" class="btn btn-danger">View</a>
-            </div>
-            <div class="col-sm-4 col-xs-12">
-                    <a href="#" class="thumbnail">
-                        <img src="images/featured-mario-party.jpg" alt="">
-                    </a>
-                    <h3>Mario Party</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, aliquam? Consequuntur sint nesciunt, veritatis, dolor eum possimus totam impedit nulla ad aliquid corporis praesentium nisi ullam earum pariatur qui ea.</p>
-                    <a href="#theme3" data-toggle="modal" class="btn btn-danger">View</a>
-            </div>
-        </div>
-    </div> 
+        <div class="col-md-2"></div>
+        </div>     
+    </div>   <!-- end of container -->
+</div> 
 
-   
-
-
-
-
-
-
-<!-- footer -->
-    <footer class="navbar navbar-inverse " role="navigation">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <div class="navbar-text">
-                        <p>&copy; Jeffrey</p>
-                        <p>Game trademarks and copyrights are properties of their respective owners. Nintendo properties are trademarks of Nintendo. &copy; 2017 Nintendo.</p>
-                    </div>
-                </div>
-            </div> 
-             <div class="row">
-                <div class="col-md-2 col-md-offset-5">
-                     <div class="navbar-text">
-                        <a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
-                        <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
-                        <a href="#"><i class="fa fa-google-plus fa-2x"></i></a>
-                    </div>
-                </div>
-             </div>   
-        </div>
-    </footer>
-
-
-
-
-    
-<!-- modal -->
-    <div class="modal fade" id="theme1" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4>Mario Kart</h4>
-                </div>
-                <div class="modal-body">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum commodi fugit repudiandae impedit nam. Distinctio quae nemo, similique minima sint velit dicta quod deserunt iure optio soluta expedita modi praesentium.</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="" class="btn btn-primary" data-dismiss="modal">Close</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal fade" id="theme2" role="dialog">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4>Mario Odyssey</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum commodi fugit repudiandae impedit nam. Distinctio quae nemo, similique minima sint velit dicta quod deserunt iure optio soluta expedita modi praesentium.</p>
-                    </div>
-                    <div class="modal-footer">
-                        <a href="" class="btn btn-primary" data-dismiss="modal">Close</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    <div class="modal fade" id="theme3" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4>Mario Party</h4>
-                </div>
-                <div class="modal-body">
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum commodi fugit repudiandae impedit nam. Distinctio quae nemo, similique minima sint velit dicta quod deserunt iure optio soluta expedita modi praesentium.</p>
-                </div>
-                <div class="modal-footer">
-                    <a href="" class="btn btn-primary" data-dismiss="modal">Close</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-        <!-- modal contacts -->
-
-
-   <div class="modal fade" id="contact" role="dialog">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="pull-left">Contact Us</h4>
-                    <a href="" class="btn btn-primary pull-right" data-dismiss="modal">Close</a>
-                </div>
-                <div class="modal-body">
-                   <form action="" method="POST">
-                    <div class="panel-body">
-                        <div class="form-group">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-user blue"></i></span>
-                                <input type="text" name="InputName" placeholder="Name" class="form-control" autofocus="autofocus" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-envelope blue"></i></span>
-                                <input type="email" name="InputEmail" placeholder="Email" class="form-control" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-phone blue"></i></span>
-                                <input type="number" name="InputCno" placeholder="Phone" class="form-control" required>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <div class="input-group">
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-comment blue"></i></span>
-                                <textarea name="InputMessage" rows="6" class="form-control" type="text" required></textarea>
-                            </div>
-                        </div>
-                        <div class="">
-                        <button type="submit" class="btn btn-info pull-right">Send <span class="glyphicon glyphicon-send"></span></button>
-                            <button type="reset" value="Reset" name="reset" class="btn">Reset <span class="glyphicon glyphicon-refresh"></span></button>
-                        </div>
-                    </div>
-                    </form>
-
-
-
-                </div>
-                <div class="modal-footer navbar-inverse">
-                    <p class="text-center">We would love to hear from you</p>
-                </div>
-            </div>
-        </div>
-    </div>
-              
-
-              
-
-    <!-- jquery bootstrap plugins -->	
+    <!-- jquery bootstrap plugins -->   
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <!-- include all compiled plugins -->

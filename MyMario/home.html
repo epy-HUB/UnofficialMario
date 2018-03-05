@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>GALLERY</title>
+    <title>HOME</title>
     <link rel="stylesheet" type="text/css" href="libs/css/style.css">
 	<link rel="stylesheet" type="text/css" href="libs/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="myStyles/generic.css">
-  <link rel="stylesheet" href="myStyles/gallery.css">
+  <link rel="stylesheet" href="myStyles/style.css">
 </head>
 <body>
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -25,8 +25,8 @@
                 </div>
                 <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
-                    <li ><a href="home.html">Home</a></li>       
-                    <li class="active"><a href="gallery.html">Gallery</a></li>   
+                    <li class="active"><a href="home.html">Home</a></li>       
+                    <li><a href="gallery.html">Gallery</a></li>   
                     <li><a href="character.html">Characters</a></li>
                     <li><a href="history.html">History</a></li>           
                     <li><a href="#contact" data-toggle="modal">Contact </a></li>
@@ -35,85 +35,59 @@
         </div>
     </nav>
 
-
-    <section class="container" >
-            <ol class="breadcrumb" id="content-page">
-                <li><a href="home.html">Home</a></li>
-                <li class="active">GALLERY</li>
-            </ol>
-        <header>
-        <h1>MARIO GALLERY</h1>
-         </header>
-    </section>
-
+    <!-- jumbotron -->
     <div class="container">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Indicators -->
-                    <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"><img class="img-responsive center-block" src="images/gallery/friends.png" alt=""> </li>
-                        <li data-target="#myCarousel" data-slide-to="1" ><img class="img-responsive center-block" src="images/gallery/frenemies.png" alt=""> </li>
-                        <li data-target="#myCarousel" data-slide-to="2"><img class="img-responsive center-block" src="images/gallery/thumb-musical.jpg" alt=""></li>
-                        <li data-target="#myCarousel" data-slide-to="3"><img class="img-responsive center-block" src="images/gallery/gallery-bee-mario.png" alt=""></li>
-                        <li data-target="#myCarousel" data-slide-to="4"><img class="img-responsive center-block" src="images/gallery/gallery-cat-mario.png" alt=""></li>
-                        <li data-target="#myCarousel" data-slide-to="5"><img class="img-responsive center-block" src="images/gallery/gallery-tanooki-mario.png" alt=""></li>
-                    </ol>
-            
-                    <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <div class="item-inside" >
-                            <img class="img-responsive" src="images/gallery/friends.png" alt="">
-                        </div>
-                    </div>
-            
-                    <div class="item">
-                        <div class="item-inside">
-                            <img class="img-responsive" src="images/gallery/frenemies.png" alt="">
-                        </div>
-                    </div>
-            
-                    <div class="item">
-                        <div class="item-inside">
-                            <img class="img-responsive" src="images/gallery/thumb-musical.jpg" alt="">
-                        </div>
-                    </div>
-            
-                    <div class="item">
-                        <div class="item-inside">
-                            <img class="img-responsive" src="images/gallery/gallery-bee-mario.png" alt="">
-                        </div>
-                    </div>
-        
-                    <div class="item">
-                        <div class="item-inside">
-                            <img class="img-responsive" src="images/gallery/gallery-cat-mario.png" alt="">
-                        </div>
-                    </div>
-
-                    <div class="item">
-                            <div class="item-inside">
-                                <img class="img-responsive" src="images/gallery/gallery-tanooki-mario.png" alt="">
-                            </div>
-                        </div>
+        <div class="jumbotron text-center">
+            <div class="row">
+                <div class="col-md-8 col-sm-6">
+                    <img class="img-responsive" src="images/home/char-mario-star.png">
                 </div>
-            
+                <div class="col-md-4 col-sm-6">
+                    <h1><q>It's-a me, Mario!</q></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium debitis </p>
+                    <a href="#" class="btn btn-primary">Hello</a>
+                    <a href="#" class="btn btn-success">World</a>
+                </div>
             </div>
-    </div>
+            
+        </div>
+        <!-- page content  -->
+        <div class="row" id="page-content">
+            <div class="col-sm-4 col-xs-12">
+                <a href="#" class="thumbnail">
+                    <img src="images/home/featured-mariokart8.jpg" alt="">
+                </a>
+                <h3>Mario Kart</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, aliquam? Consequuntur sint nesciunt, veritatis, dolor eum possimus totam impedit nulla ad aliquid corporis praesentium nisi ullam earum pariatur qui ea.</p>
+                <a href="#theme1" data-toggle="modal" class="btn btn-danger">View</a>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                    <a href="#" class="thumbnail">
+                        <img src="images/home/featured-mario-odyssey.jpg" alt="">
+                     </a>
+                    <h3>Mario Odyssey</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, aliquam? Consequuntur sint nesciunt, veritatis, dolor eum possimus totam impedit nulla ad aliquid corporis praesentium nisi ullam earum pariatur qui ea.</p>
+                    <a href="#theme2" data-toggle="modal" class="btn btn-danger">View</a>
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                    <a href="#" class="thumbnail">
+                        <img src="images/home/featured-mario-party.jpg" alt="">
+                    </a>
+                    <h3>Mario Party</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, aliquam? Consequuntur sint nesciunt, veritatis, dolor eum possimus totam impedit nulla ad aliquid corporis praesentium nisi ullam earum pariatur qui ea.</p>
+                    <a href="#theme3" data-toggle="modal" class="btn btn-danger">View</a>
+            </div>
+        </div>
+    </div> 
+
    
 
-    
-
-  
-
-
-
-   
-          
 
 
 
 
-    <!-- footer -->
+
+<!-- footer -->
     <footer class="navbar navbar-inverse " role="navigation">
         <div class="container">
             <div class="row">
@@ -135,6 +109,59 @@
              </div>   
         </div>
     </footer>
+
+
+
+
+    
+<!-- modal -->
+    <div class="modal fade" id="theme1" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Mario Kart</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum commodi fugit repudiandae impedit nam. Distinctio quae nemo, similique minima sint velit dicta quod deserunt iure optio soluta expedita modi praesentium.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="" class="btn btn-primary" data-dismiss="modal">Close</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="theme2" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4>Mario Odyssey</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum commodi fugit repudiandae impedit nam. Distinctio quae nemo, similique minima sint velit dicta quod deserunt iure optio soluta expedita modi praesentium.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <a href="" class="btn btn-primary" data-dismiss="modal">Close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div class="modal fade" id="theme3" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>Mario Party</h4>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum commodi fugit repudiandae impedit nam. Distinctio quae nemo, similique minima sint velit dicta quod deserunt iure optio soluta expedita modi praesentium.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="" class="btn btn-primary" data-dismiss="modal">Close</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <!-- modal contacts -->
@@ -193,7 +220,7 @@
 
               
 
-    <!-- jquery bootstrap plugins -->   
+    <!-- jquery bootstrap plugins -->	
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 <!-- include all compiled plugins -->
