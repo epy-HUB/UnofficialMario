@@ -2,8 +2,15 @@
 
 body{
     padding-top: 20%;
-    background-color: grey;
+    background-color: #98e3f0 ;
 }
+.jumbotron{
+	margin-top: 7%;
+	background-image: url("../bg-red.jpg");
+	color: #FFF;
+	
+}
+
 
 #page-content{
 	margin-bottom: 100px;

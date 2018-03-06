@@ -5,6 +5,7 @@
     height: 100%;
     margin-bottom: 30%;
     padding-top: 5%;
+    background-color: #98e3f0;
   }
   
   #myCarousel {
@@ -52,6 +53,14 @@
    
     box-shadow: 0 10px 6px -6px #777;
   }
+
+.carousel-indicators li{
+  border: 0;
+}
+
+.carousel-indicators li.active{
+  border:0;
+}
 
 	
 
