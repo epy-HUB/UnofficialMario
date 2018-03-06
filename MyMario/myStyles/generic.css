@@ -8,6 +8,14 @@
 	margin-bottom: 0;
 }
 
+.navbar-brand{
+	height: auto;
+	transition: 1s ease;
+}
+
+.navbar-brand:hover{
+	transform: rotateZ(360deg)
+}
 
 .navbar-nav>li.active{
 	border-bottom: 2px solid red;
@@ -36,7 +44,7 @@
 	font-weight: bold;
 	background-color: transparent;
 	color: #98e3f0;
-	transition: all 1s ease;
+	text-transform: uppercase;
 }
 
 
