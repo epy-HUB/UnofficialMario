@@ -4,6 +4,7 @@ body{
 	background-color: #98e3f0;
 }
 
+/*to aling from top properly the text*/
 .vcenter {
     margin-top: 20%;
 }
@@ -11,46 +12,157 @@ body{
 	padding-bottom: 5%;
 }
 
-/*character*/
+/*assigned background colors to each characters*/
 #mario{
 	background-color: red;
 	color: #FFFFFF;
 }
+#mario a{
+	color: #FFF;
+	border: 1px solid #FFF;
+	padding: 3px 10px;
+	transition: 300ms
+}
+
+#mario a:hover{
+	background-color: #FFF;
+	color: red;
+}
+
 #luigi{
 	background-color: green;
 	color: #FFFFFF;
 }
+#luigi a{
+	color: #FFF;
+	border: 1px solid #FFF;
+	padding: 3px 10px;
+	transition: 300ms
+}
+
+#luigi a:hover{
+	background-color: #FFF;
+	color: green;
+}
+
 #peach{
 	background-color: pink;
 	color: #FFFFFF;
 }
+
+#peach a{
+	color: #FFF;
+	border: 1px solid #FFF;
+	padding: 3px 10px;
+	transition: 300ms
+}
+
+#peach a:hover{
+	background-color: #FFF;
+	color: pink;
+}
+
 #toad{
 	background-color: blue;
 	color: #FFFFFF;
 }
+#toad a{
+	color: #FFF;
+	border: 1px solid #FFF;
+	padding: 3px 10px;
+	transition: 300ms
+}
+
+#toad a:hover{
+	background-color: #FFF;
+	color: blue;
+}
+
 #daisy{
 	background-color: orange;
 	color: #FFFFFF;
 }
+#daisy a{
+	color: #FFF;
+	border: 1px solid #FFF;
+	padding: 3px 10px;
+	transition: 300ms
+}
+
+#daisy a:hover{
+	background-color: #FFF;
+	color: orange;
+}
+
 #bowser{
 	background-color: gold;
 	color: #5F5F5F;
+}
+
+#bowser a{
+	color: #5F5F5F;
+	border: 1px solid #5F5F5F;
+	padding: 3px 10px;
+	transition: 300ms
+}
+
+#bowser a:hover{
+	background-color: #5F5F5F;
+	color: gold;
 }
 #yoshi{
 	background-color: green;
 	color: #FFFFFF;
 }
+
+#yoshi a{
+	color: #FFF;
+	border: 1px solid #FFF;
+	padding: 3px 10px;
+	transition: 300ms
+}
+
+#yoshi a:hover{
+	background-color: #FFF;
+	color: green;
+}
+
+
 #wario{
 	background-color: yellow;
 	color: #5F5F5F;
+}
+
+#wario a{
+	color: #5F5F5F;
+	border: 1px solid #5F5F5F;
+	padding: 3px 10px;
+	transition: 300ms
+}
+
+#wario a:hover{
+	background-color: #5F5F5F;
+	color: yellow;
 }
 #waluigi{
 	background-color: violet;
 	color: #FFFFFF;
 }
 
+#waluigi a{
+	color: #FFF;
+	border: 1px solid #FFF;
+	padding: 3px 10px;
+	transition: 300ms
+}
+
+#waluigi a:hover{
+	background-color: #FFF;
+	color: violet;
+}
 
 
+/*for smaller screen adustments*/
 @media only screen and (max-device-width: 459px) {
 
 	.vcenter{

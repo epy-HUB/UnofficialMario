@@ -4,11 +4,12 @@ body{
     padding-top: 20%;
     background-color: #98e3f0 ;
 }
+
+/*assigned a repeating background for jumbotron*/
 .jumbotron{
 	margin-top: 7%;
-	background-image: url("../bg-red.jpg");
-	color: #FFF;
-	
+	background-image: url("../images/home/bg-red.jpg");
+	color: #FFF;	
 }
 
 
@@ -20,7 +21,7 @@ body{
 	margin-bottom: 15px;
 }
 
-
+/*adjustments for smaller screens*/
 @media only screen and (min-device-width: 767px)  {
 	body{
 		padding-top: 10%;

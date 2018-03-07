@@ -1,5 +1,5 @@
 
-
+/*assinged full scale of the body*/
   html,body {
     width: 100%;
     height: 100%;
@@ -8,6 +8,7 @@
     background-color: #98e3f0;
   }
   
+  /*position the carousel to take up full width of the body*/
   #myCarousel {
     width: 100%;
     height: 80%;
@@ -21,6 +22,8 @@
     height: 100vh;
        
   }
+
+/*image inside to carousel to take 80% of parent width*/
   #myCarousel .item-inside {
     width: 80%;
     height: 80%;
@@ -35,6 +38,7 @@
     top: 0;
   }
 
+  /*indicators to have 10% width*/
   #myCarousel .carousel-indicators li {
     width: 10%;
   }
@@ -47,11 +51,15 @@
     transition: all .5s ease-in;
   }
 
+  #myCarousel .carousel-indicators li.active{
+    background-color: transparent;
+  }
+
+  /*add shadow effects to the active image*/
   #myCarousel .carousel-indicators li.active img{
-  
-    margin-top: -1%;
-   
+    margin-top: -1%;  
     box-shadow: 0 10px 6px -6px #777;
+    border: 0;
   }
 
 .carousel-indicators li{

@@ -1,11 +1,18 @@
+/*generic styles for common elelments in each page*/
+
+
+/*designed navbar*/
 .navbar-text>a{
     color: inherit;
     text-decoration: none;
-
 }
 
 .navbar{
 	margin-bottom: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+	background-color: #FFF;
 }
 
 .navbar-brand{
@@ -14,11 +21,11 @@
 }
 
 .navbar-brand:hover{
-	transform: rotateZ(360deg)
+	-webkit-transform: rotateZ(360deg)
 }
 
 .navbar-nav>li.active{
-	border-bottom: 2px solid red;
+	border-bottom: 2px solid #bdf4fd;
 
 }
 .navbar-default .navbar-nav>li>a{
@@ -47,18 +54,62 @@
 	text-transform: uppercase;
 }
 
+.navbar-toggle{
+	background-color: #c00;
+	margin-top: 30px;
+}
 
 
+/*style for footer section*/
 footer p{
 	font-size: 0.7em;
 }
 footer.navbar{
 	border-radius: 0;
 }
+.fa-facebook-square{
+	transition: 300ms;
+}
+
+.fa-facebook-square:hover{
+	color: #3B5998;
+}
+
+.fa-twitter{
+	transition: 300ms;
+}
+
+.fa-twitter:hover{
+	color: #0084b4;
+}
+
+.fa-gitlab{
+	transition: 300ms;
+}
+
+.fa-gitlab:hover{
+	color: #fca326;
+}
+
+/*designed for contacts modal section*/
+.modal-header{
+	background-color: #f25157;
+	color: #fff;
+}
+
+.modal-body{
+	background-color: #98e3f0;
+}
 
 .modal-footer p{
 	color: #DDD;
 }
+
+.input-group-addon{
+	background-color: #f25157;
+	color: #FFF;
+}
+
 textarea {
     resize: none;
 }
