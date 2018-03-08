@@ -1,13 +1,13 @@
 
 
 body{
-    padding-top: 20%;
+    padding-top: 100px;
     background-color: #98e3f0 ;
 }
 
 /*assigned a repeating background for jumbotron*/
 .jumbotron{
-	margin-top: 7%;
+	margin-top: 15%;
 	background-image: url("../images/home/bg-red.jpg");
 	color: #FFF;	
 }
@@ -22,11 +22,5 @@ body{
 }
 
 /*adjustments for smaller screens*/
-@media only screen and (min-device-width: 767px)  {
-	body{
-		padding-top: 10%;
-	
-	}
-	
-}
+
 

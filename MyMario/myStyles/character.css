@@ -1,6 +1,6 @@
 /*characters*/
 body{
-	padding-top: 20%;
+	padding-top: 120px;
 	background-color: #98e3f0;
 }
 
@@ -171,10 +171,7 @@ body{
 }
 
 @media only screen and (min-device-width: 767px)  {
-	body{
-		padding-top: 10%;
-		
-	}
+
 	.vcenter{
 		margin-top: 15px;
 	}
